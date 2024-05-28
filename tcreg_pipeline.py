@@ -159,7 +159,7 @@ def get_tcreg(hla_file, output_dir, tcreg_file, structure, hla_chain, receptor_c
     if structure == "":
 
         tcr_contact_resis = []
-        with open(f"framework_resi_{cutoff}.csv", "r") as csvfile:
+        with open(f"tcr_contact_resi_{cutoff}.csv", "r") as csvfile:
             reader = csv.reader(csvfile)
             next(reader)
             for line in reader:
