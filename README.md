@@ -18,7 +18,7 @@ Corresponding author: Nikolaos G. Sgourakis, nikolaos.sgourakis@pennmedicine.upe
 
 ### Usage
 
-The code has two modes. The first mode assumes the given receptor's binding mode is similar to that of TCRs and utilizes the previously identified TCR contact residues from pHLA-TCR structures in TCR3d. The second mode recalculates the T-CREGs using the receptor-pHLA complex structure as input, taking into account the binding mode in the identification of contact residues. 
+The code has two modes. The first mode assumes the given receptor's binding mode is similar to that of TCRs and utilizes the previously identified TCR-contacting residues from TCR:pHLA structures in TCR3d. The second mode recalculates the T-CREGs using the receptor:pHLA complex structure as input, taking into account the binding mode in the identification of contact residues. 
 
 The default T-CREG file is the "common" 21 T-CREGs. If you'd like to use all T-CREGs, include the following flag: `-tcreg_file tcregs_greedy_no_cutoff.txt`. Custom T-CREG files can also be inputted using this flag.
 
