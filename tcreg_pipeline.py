@@ -241,7 +241,7 @@ def get_tcreg(hla_file, output_dir, tcreg_file, structure, hla_chain, receptor_c
 
         temp_tcreg = dict(sorted(temp_tcreg.items(), key=lambda x:x[0]))
         tcreg = defaultdict(list)
-        for allele, allele_list in temp_tcreg.items():
+        for temp_allele, allele_list in temp_tcreg.items():
             total_allelic_coverage = 0
             allele_freq = {}
             
@@ -253,9 +253,9 @@ def get_tcreg(hla_file, output_dir, tcreg_file, structure, hla_chain, receptor_c
                 allele_freq = dict(sorted(allele_freq.items(), key=lambda x:x[1], reverse=True))
             
                 # if total_allelic_coverage > 0.05:
-                most_common_allele = list(allele_freq.keys())[0]
+            most_common_allele = list(allele_freq.keys())[0]
             
-                tcreg[most_common_allele] = allele_list
+            tcreg[most_common_allele] = allele_list
         
         filename = f"{output_dir}/{os.path.basename(structure.split('.pdb')[0])}_tcreg.txt"
         write_tcreg_file(filename, tcreg, usa_allelic_freq, tcr_contact_resis, seq_tcr_contact)
