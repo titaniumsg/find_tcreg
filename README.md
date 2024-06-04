@@ -1,7 +1,7 @@
 # T-CREGs
 
 #### For a detailed description of the methods, please refer to the [article](https://google.com):
-Gupta S, Sgourakis NG. T-CREGs: classification of HLA molecular surfaces for epitope prioritization and therapeutic expansion.
+Gupta S, Sgourakis NG. A structure-guided approach to predict MHC-I restriction of T cell receptors for public antigens.
 
 Corresponding author: Nikolaos G. Sgourakis, nikolaos.sgourakis@pennmedicine.upenn.edu
 
