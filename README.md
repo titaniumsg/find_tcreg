@@ -1,7 +1,7 @@
 # T-CREGs
 
-#### For a detailed description of the methods, please refer to the [article](https://google.com):
-Gupta S, Sgourakis NG. A structure-guided approach to predict MHC-I restriction of T cell receptors for public antigens.
+#### For a detailed description of the methods, please refer to the [article](https://doi.org/10.1101/2024.06.04.597418):
+Gupta S, Sgourakis NG. A structure-guided approach to predict MHC-I restriction of T cell receptors for public antigens. (2024). bioRxiv. doi.org/10.1101/2024.06.04.597418.
 
 Corresponding author: Nikolaos G. Sgourakis, nikolaos.sgourakis@pennmedicine.upenn.edu
 
